@@ -1,8 +1,8 @@
 import React from "react";
-function Message() {
+function Message({ text }) {
     return (
-        <div className="App">
-            Первый проект
+        <div >
+            {text}
         </div>
     );
 }
